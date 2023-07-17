@@ -1,4 +1,15 @@
 # CV--HTML-CSS
-#npm install
-![semihbaler_CV](https://github.com/Semih1301/CV--HTML-CSS/assets/129155643/a86bc820-1a38-4b1a-a797-a78706ad549c)
+## İlk HTMl-CSS ÇALIŞMAM 
+
+
+
+
+https://github.com/Semih1301/CV--HTML-CSS/assets/129155643/d85e515f-3a1d-486c-97a0-02dfeb4ec869
+
+
+
+
+
+
+
 
