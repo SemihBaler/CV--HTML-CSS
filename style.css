@@ -1,0 +1,434 @@
+* {
+  /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#buton{
+  position: absolute;
+  width: 4rem;
+  height: 2rem;
+  top: 1rem;
+  right: 2rem;
+  padding-bottom: 20px;
+  font-size: 12px;
+
+}
+#buton:hover{
+    color:rgb(168, 50, 60) !important;
+    background-color:white ;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+    
+}
+#mainbody {
+  font-family: sans-serif;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 10px;
+
+  }
+.main {
+  background-color: rgb(168, 50, 60);
+  color: white;
+  padding: 10px;
+  grid-column: 1/-1;
+  border-top-left-radius: 40px;
+  position: relative;
+}
+h1 {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+h3 {
+  margin-left: 50px;
+}
+.sidebar {
+  background-color: rgb(228, 228, 228);
+  border-top-left-radius: 40px;
+}
+
+img {
+  width: 240px;
+  margin: 26px;
+  border-radius: 50px;
+}
+.questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.answers ul {
+  list-style: none;
+}
+h4 {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  color: rgb(168, 49, 49);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.color {
+  width: 21px;
+  height: 21px;
+  background-color: black;
+  background-image: url(img/1.jpg);
+  background-size: contain;
+  margin-bottom: 14px;
+}
+.altskills {
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  margin: 8px;
+}
+.altskills2 {
+  margin-top: 4px;
+  list-style: none;
+}
+.color {
+  background-size: cover;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.color-0 {
+  background-image: url(img/Skill-Icons/C.jpg);
+  background-size: contain;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.color-1 {
+  background-image: url(img/Skill-Icons/DotNet.jpg);
+  margin-bottom: 16px;
+}
+.color-2 {
+  background-image: url(img/Skill-Icons/JavaScript.jpg);
+}
+.color-3 {
+  background-image: url(img/Skill-Icons/HtmlCss.jpg);
+  width: 34px;
+}
+.color-4 {
+  background-image: url(img/Skill-Icons/Bootstrap.jpg);
+}
+.color-5 {
+  background-image: url(img/Skill-Icons/mssql.jpg);
+  width: 34px;
+}
+.color-6 {
+  background-image: url(img/Skill-Icons/EF.jpg);
+  width: 34px;
+  height: 25px;
+}
+.color-7 {
+  background-image: url(img/Skill-Icons/OOP.jpg);
+  width: 34px;
+  background-size: contain;
+}
+.color-8 {
+  background-image: url(img/Skill-Icons/linQ.jpg);
+  background-size: contain;
+  width: 34px;
+}
+
+.color-9 {
+  background-image: url(img/Skill-Icons/Autocad.jpg);
+  margin-top: 19px;
+}
+
+.color-10 {
+  background-image: url(img/Skill-Icons/Revit.jpg);
+}
+
+.color-11 {
+  background-image: url(img/Skill-Icons/Office.jpg);
+}
+footer {
+  background-color: rgb(168, 50, 60);
+  grid-column: 1/-1;
+  color: white;
+  font-size: 15px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  font-size: 14px;
+  color: white;
+  width: 5px;
+  height: 6px;
+  background-color: rgb(168, 49, 49);
+  padding: 2px 5px;
+  letter-spacing: 1px;
+}
+a:active {
+  font-size: 14px;
+  color: white;
+  width: 5px;
+  height: 6px;
+  background-color: rgb(168, 49, 49);
+  padding: 2px 5px;
+  letter-spacing: 1px;
+}
+li {
+  margin-left: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.altskills2 li {
+  margin-left: 20px;
+  margin-bottom: 17px;
+}
+.Boxes li {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.boxe {
+  width: 10px;
+  height: 10px;
+  list-style: none;
+  background-color: black;
+  border-radius: 10px;
+}
+.C {
+  display: flex;
+}
+.C .box5 {
+  background-color: white;
+}
+.Net {
+  display: flex;
+}
+.Net .box5 {
+  background-color: white;
+}
+.Net .box4 {
+  background-color: white;
+}
+.JavaScript {
+  display: flex;
+}
+.JavaScript .box5 {
+  background-color: white;
+}
+.JavaScript .box4 {
+  background-color: white;
+}
+.JavaScript .box3 {
+  background-color: white;
+}
+.Html {
+  display: flex;
+}
+.Html .box5 {
+  background-color: white;
+}
+.Bootstrap {
+  display: flex;
+}
+.Bootstrap .box5 {
+  background-color: white;
+}
+.Mssql {
+  display: flex;
+}
+.Mssql .box5 {
+  background-color: white;
+}
+.Mssql .box4 {
+  background-color: white;
+}
+.Entity {
+  display: flex;
+}
+.Entity .box5 {
+  background-color: white;
+}
+.Entity .box4 {
+  background-color: white;
+}
+.OOP {
+  display: flex;
+}
+.OOP .box5 {
+  background-color: white;
+}
+.Linq {
+  display: flex;
+}
+.Linq .box5 {
+  background-color: white;
+}
+.Autocad {
+  display: flex;
+}
+.Revit {
+  display: flex;
+}
+.Revit .box5 {
+  background-color: white;
+}
+.Revit .box4 {
+  background-color: white;
+}
+.Office {
+  display: flex;
+}
+
+.description {
+  font-size: small;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+.article {
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.experience {
+  position: relative;
+  line-height: 20px;
+}
+.experience li {
+  list-style: decimal;
+  list-style-type: square;
+}
+hr {
+  margin: 10px;
+}
+.experience::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -5px;
+  left: -32px;
+  background-image: url(img/icons/Experience.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.education {
+  position: relative;
+  line-height: 20px;
+}
+.education::before {
+  content: "";
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  top: -5px;
+  left: -32px;
+  background-image: url(img/icons/Education.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+.language::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -5px;
+  left: -32px;
+  background-image: url(img/icons/Languages.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.altlanguage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.LanBox li {
+  margin-left: 10px;
+  margin-bottom:18px;
+}
+.lang{
+  list-style: none;
+}
+.lanBox{
+  gap: 50px;
+}
+.English{
+  display: flex;
+  gap: 3px;
+  list-style: none;
+}
+.English .box5{
+ background-color: white;
+ border: 1px solid black;
+}
+.English .box4{
+  background-color: white;
+  border: 1px solid black;
+ }
+ .Turkish{
+  display: flex;
+  gap: 3px;
+  list-style: none;
+}
+.skills {
+  position: relative;
+}
+.skills::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -5px;
+  left: -32px;
+  background-image: url(img/icons/Skills.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.courses {
+  margin-top: 50px;
+  position: relative;
+}
+.courses::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -5px;
+  left: -32px;
+  background-image: url(img/icons/Courses.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.works {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 50px;
+}
+.work li {
+  list-style: none;
+margin-bottom: 30px;
+}
+.work li p{
+  margin-bottom: 8px;
+}
+.years :nth-child(2) {
+  margin-top: 70px;
+}
+.years :nth-child(3) {
+  margin-top: 95px;
+}
+.years :nth-child(4) {
+  margin-top: 90px;
+}
+.years :nth-child(5) {
+  margin-top: 95px;
+}
+.course {
+  display: grid;
+  grid-template-columns: 15fr 17fr;
+  line-height: 20px;
+  font-size: 12px;
+}
+p{
+  text-align: justify;
+}
