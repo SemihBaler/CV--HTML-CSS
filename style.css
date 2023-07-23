@@ -133,17 +133,17 @@ h4 {
 }
 
 .color-9 {
-  background-image: url(img/Skill-Icons/Autocad.jpg);
+  background-image: url(img/Skill-Icons/MVC.png);
   margin-top: 19px;
+  width: 35px;
+
 }
 
 .color-10 {
-  background-image: url(img/Skill-Icons/Revit.jpg);
-}
-
-.color-11 {
+  margin-top: 30px;
   background-image: url(img/Skill-Icons/Office.jpg);
 }
+
 footer {
   background-color: rgb(168, 50, 60);
   grid-column: 1/-1;
@@ -157,11 +157,10 @@ a:visited {
   color: black;
 }
 a:hover {
-  font-size: 14px;
+  font-size: 12px;
   color: white;
-  width: 5px;
-  height: 6px;
-  background-color: rgb(168, 49, 49);
+  background-color: rgb(129, 129, 129);
+
   padding: 2px 5px;
   letter-spacing: 1px;
 }
@@ -264,22 +263,22 @@ li {
 .Linq .box5 {
   background-color: white;
 }
-.Autocad {
+.MVC {
   display: flex;
 }
-.Revit {
-  display: flex;
-}
-.Revit .box5 {
+.MVC .box5 {
   background-color: white;
 }
-.Revit .box4 {
+.MVC .box4 {
   background-color: white;
 }
 .Office {
   display: flex;
+  margin-top: 20px;
 }
-
+.Office .box5 {
+  background-color: white;
+}
 .description {
   font-size: small;
   margin-bottom: 20px;
@@ -293,6 +292,7 @@ li {
 .experience {
   position: relative;
   line-height: 20px;
+  margin-top: 70px;
 }
 .experience li {
   list-style: decimal;
@@ -311,10 +311,12 @@ hr {
   background-image: url(img/icons/Experience.jpg);
   background-size: cover;
   border-radius: 10px;
+
 }
 .education {
   position: relative;
   line-height: 20px;
+  margin-top: 70px;
 }
 .education::before {
   content: "";
@@ -337,6 +339,9 @@ hr {
   background-image: url(img/icons/Languages.jpg);
   background-size: cover;
   border-radius: 10px;
+}
+.language{
+  margin-top: 70px;
 }
 .altlanguage {
   display: grid;
@@ -401,7 +406,7 @@ hr {
 }
 .works {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 100px 1fr;
   column-gap: 50px;
 }
 .work li {
@@ -431,4 +436,11 @@ margin-bottom: 30px;
 }
 p{
   text-align: justify;
+}
+.WorkEx li{
+  list-style:disc;
+  margin-bottom: 3px;
+}
+#USA{
+  margin-top: 230px;
 }
