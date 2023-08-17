@@ -1,5 +1,5 @@
-# CV--HTML-CSS
-## İlk HTMl-CSS ÇALIŞMAM 
+# CV
+## MyFirst HTML and CSS Work
 
 
 
